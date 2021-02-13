@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/JavaScript">
+function Position(){
+var Position = prompt("Enter your position:", "Employee I");
+switch (Position) {    
+	case "Employee I" :
+var num1= Number(prompt("Enter your Salary."));
+var num2= Number(prompt("Enter your SSS rate."));
+var num3= parseFloat(prompt("Enter your Pag-ibig rate."));
+var num4= Number(prompt("Enter your Philhealth rate."));
+var num5= parseFloat(prompt("Enter your Income Tax"));
+var difference= num1 - ((num2) + ((num3 / 100) * (num1)) + num4 + ((num5/100) * (num1)));
+	alert("Your total grade is: " + difference);
+	break;
+
+	case "Employee II" :
+var num1= Number(prompt("Enter your Salary."));
+var num2= Number(prompt("Enter your SSS rate."));
+var num3= parseFloat(prompt("Enter your Pag-ibig rate."));
+var num4= Number(prompt("Enter your Philhealth rate."));
+var num5= parseFloat(prompt("Enter your Income Tax"));
+var difference= num1 - ((num2) + ((num3 / 100) * (num1)) + num4 + ((num5/100)) * (num1));
+    alert("Your total grade is: " + difference);
+	break;
+
+	case "Employee III" :
+var num1= Number(prompt("Enter your Salary."));
+var num2= Number(prompt("Enter your SSS rate."));
+var num3= parseFloat(prompt("Enter your Pag-ibig rate."));
+var num4= Number(prompt("Enter your Philhealth rate."));
+var num5= parseFloat(prompt("Enter your Income Tax"));
+var difference= num1 - ((num2) + ((num3 / 100) * (num1)) + num4 + ((num5/100)) * (num1));
+    alert("Your total grade is: " + difference);
+	break;
+	
+	case "Employee IV" :
+var num1= Number(prompt("Enter your Salary."));
+var num2= Number(prompt("Enter your SSS rate."));
+var num3= parseFloat(prompt("Enter your Pag-ibig rate."));
+var num4= Number(prompt("Enter your Philhealth rate."));
+var num5= parseFloat(prompt("Enter your Income Tax"));
+var difference= num1 - ((num2) + ((num3 / 100) * (num1)) + num4 + ((num5/100)) * (num1));
+    alert("Your total grade is: " + difference);    
+	break;
+	
+	case "Employee V" :
+var num1= Number(prompt("Enter your Salary."));
+var num2= Number(prompt("Enter your SSS rate."));
+var num3= parseFloat(prompt("Enter your Pag-ibig rate."));
+var num4= Number(prompt("Enter your Philhealth rate."));
+var num5= parseFloat(prompt("Enter your Income Tax"));
+var difference= num1 - ((num2) + ((num3 / 100) * (num1)) + num4 + ((num5/100)) * (num1));
+    alert("Your total grade is: " + difference);
+	break;
+	
+	default: 
+	alert("Sorry! Your section is not in the list.");
+	
+}
+}
+</script>
+
+<style type="text/CSS">
+h1 {
+text-align:center;
+}
+
+body{
+background-color:none;
+}
+</style>
+</head>
+<body>
+
+<h1> Position and Salary</h1>
+<br>
+<h2> Information Guide</h2>
+</br>
+<form>
+<input type="button" value="Click here" onclick="Position()">
+</form>
+<table style="width:100%" border="2pt">
+  <tr>
+    <th>Employee</th>
+    <th>Salary (Php)</th>
+	<th> SSS (Php)</th>
+    <th>Pag-ibig (%)</th>
+	<th>Philhealth (Php)</th>
+	<th>Income Tax (%) </th>
+  </tr>
+  <tr>
+    <td>Employee I</td>
+	 <th>Php 18,000</th>
+	<th> Php 581.30</th>
+    <th>4%</th>
+	<th>Php 200</th>
+	<th>0%</th>
+  </tr>
+  <td>Employee II</td>
+   <th>Php 24,000</th>
+	<th>Php 581.30</th>
+    <th>4%</th>
+	<th>Php 300</th>
+	<th>20% </th>
+  </tr>
+  <tr>
+  <td>Employee III</td>
+   <th>Php 37,000</th>
+	<th>Php 581.30</th>
+    <th>4%</th>
+	<th>Php 875</th>
+	<th>25% </th>
+  </tr>
+  <tr>
+  <td>Employee IV</td>
+   <th>Php 70,000</th>
+	<th>Php 581.30</th>
+    <th>4%</th>
+	<th>Php 875</th>
+	<th>30% </th>
+  </tr>
+  <tr>
+  <td>Employee V</td>
+   <th>Php 85,000</th>
+	<th>Php 581.30</th>
+    <th>4%</th>
+	<th>Php 875</th>
+	<th>30% </th>
+  </tr>
+</table>
+</body>
+</html>
