@@ -1,0 +1,76 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    box-sizing: border-box;
+    margin: 10px auto;
+}
+body
+{
+    background-color: darkslategray;
+    color: coral;
+    height: max-content;
+}
+#mainContent{
+    width: 1024px;
+    border: 1pt darkgoldenrod solid;
+}
+header, nav, article, footer, .sec{
+    width: 1000px;
+    height: 200px;
+    border: 1pt darkgoldenrod solid;
+}
+ul{
+    padding: 0px;
+    list-style: none;
+}
+a, a:active{
+    text-decoration: none;
+    color: darkred;
+}
+li{
+    float: right;
+    display: inline-block;
+    width: 120px;
+    background-color: darksalmon;
+    text-align: center;
+    padding: 3px;
+    border-radius: 16px;
+    margin-right: 50px;
+}
+a:hover{ 
+    color: darkseagreen;
+    background-color: darkslategray;
+}
+article{
+    height: max-content;
+    font-size: 20pt;
+    padding: 3px;
+}
+.one, .two, .three{
+    font-size: 13pt;
+    color: white;
+    width: 950px;
+    height: 500px;
+    opacity: 0.5;
+    background-size: 950px;
+}
+p{
+    text-indent: 5%;
+}
+.one{
+    background-image: url("https://static.wikia.nocookie.net/firstlaw/images/e/e2/1-the-first-law-2.jpg/revision/latest/scale-to-width-down/670?cb=20160520125525");
+
+}
+.two{
+    background-image: url("https://productplacementblog.com/wp-content/uploads/2020/12/New-Balance-Womens-Sneakers-of-Helena-Howard-as-Nora-Reid-in-The-Wilds-S01E03-3.jpg");
+}
+.three{
+    background-image: url("https://c.wallhere.com/photos/25/f5/Valorant_Killjoy_Valorant_digital_art_artwork_digital_video_games_Riot_Games_fantasy_girl-1945993.jpg!d");
+}
+.one:hover, .two:hover, .three:hover{
+    opacity: 1;
+}
+.logo{
+    float: left;
+    margin-left: 50px;
+}
