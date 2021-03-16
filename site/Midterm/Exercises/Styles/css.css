@@ -1,0 +1,10 @@
+*{
+    margin: 30px auto;
+    background-color: #f3e3ee;
+}
+header{
+    font-family: elephant;
+    font-size: 40pt;
+    text-align: center;
+    color: #1c5d3b;
+}
