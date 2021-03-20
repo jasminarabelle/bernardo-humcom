@@ -1,10 +1,95 @@
 *{
     margin: 30px auto;
     background-color: #f3e3ee;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #f3e3ee;
+    height: max-content;
+}
+#mainContent{
+    width: 1024px;
+    text-align: center;
+    height: max-content;
+    color:  #1c5d3b;
 }
 header{
     font-family: elephant;
     font-size: 40pt;
     text-align: center;
     color: #1c5d3b;
+    width: 550px;
+    border: 4pt lightcoral solid;
 }
+article{
+    height: max-content;
+    padding: 3px;
+    background-color: rgb(223, 221, 221);
+}
+ul{
+    list-style: none;
+}
+h1, h3{
+    color: #EC4D37;
+    background-color: rgb(223, 221, 221);
+}
+section{
+    border: lightcoral 3pt solid;
+    background-color: lightpink;
+}
+#profiles1{
+    text-align: center;
+    margin: 0%;
+}
+.haseul, .vivi, .yves, .jinsoul{
+    display: inline-block;
+    margin-bottom: 0%;
+    width: 180px;
+    height: 210px;
+}
+nav{
+    background-color: rgb(223, 221, 221);
+}
+.navis{
+    display: inline-block;
+    width: 160px;
+    background-color: lightcoral;
+    text-align: center;
+    font-weight: 550;
+    padding: 3px;
+    border-radius: 16px;
+    margin-top: 0%;
+    margin-right: 17px;
+    margin-left: 10px;
+    margin-bottom: 0%;
+}
+a, a:active{
+    text-decoration: none;
+    color: darkred;
+}
+a:hover{ 
+    color: darkseagreen;
+    background-color: darkslategray;
+}
+#profiles2{
+    text-align: center;
+    margin: 0%;
+}
+.kimlip, .chuu, .heejin, .hyunjin{
+    display: inline-block;
+    margin-bottom: 0%;
+    width: 180px;
+    height: 210px;
+}
+#profiles3{
+    text-align: center;
+    margin: 0%;
+}
+.gowon, .choerry, .hyejoo, .yeojin{
+    display: inline-block;
+    margin-bottom: 0%;
+    width: 180px;
+    height: 210px;
+}
+

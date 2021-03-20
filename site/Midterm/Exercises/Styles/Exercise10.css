@@ -19,6 +19,10 @@ header, nav, article, footer, .sec{
     height: 200px;
     border: 1pt darkgoldenrod solid;
 }
+.logo{
+    float: left;
+    margin-left: 50px;
+}
 ul{
     padding: 0px;
     list-style: none;
@@ -46,6 +50,10 @@ article{
     font-size: 20pt;
     padding: 3px;
 }
+h1{
+    font-size: 20pt;
+    font-style: italic;
+}
 .one, .two, .three{
     font-size: 13pt;
     color: white;
@@ -69,8 +77,4 @@ p{
 }
 .one:hover, .two:hover, .three:hover{
     opacity: 1;
-}
-.logo{
-    float: left;
-    margin-left: 50px;
 }

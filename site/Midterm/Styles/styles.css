@@ -27,8 +27,6 @@ ul{
 a, a:active{
     text-decoration: none;
     color: darkred;
-}
-li{
     display: inline-block;
     width: 150px;
     background-color: darksalmon;
@@ -36,6 +34,15 @@ li{
     padding: 3px;
     border-radius: 16px;
 }
+/* .navis{
+    display: inline-block;
+    width: 150px;
+    background-color: darksalmon;
+    text-align: center;
+    padding: 3px;
+    border-radius: 16px;
+} */
+
 a:hover{ 
     color: darkseagreen;
     background-color: darkslategray;
