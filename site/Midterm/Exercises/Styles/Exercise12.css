@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;  color: #ffff;   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',  sans-serif;
+    background-color: burlywood;
+    color: black;
+}
+body{ width: 100%; }
+
+#main, header, footer{
+    width:95%;  margin: 10px auto;      
+}
+div{
+    margin-bottom: 10px;
+}
+header, footer, #hero, #body{
+    height: 80px;
+    background-color: darkcyan;
+    width: 100%;
+    padding: 13px;
+}
+/* .header{
+    width: 100%;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+}*/
+section{
+    display: inline-block;
+}
+
+ .div1>.col-1{    
+    height: 35px;
+    background-color: darksalmon;  
+    text-align: center;
+    padding: 7px;
+}  
+.div1{
+    width: 100%;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: 24% 50% 24%;
+    grid-gap: 10px;
+    background-color: darkcyan;
+}
+
+#hero{
+    height: 200px;
+    width: 74%;
+    float: left;
+}
+.div2>.col-2{    
+    height: 150px;
+    background-color: darksalmon;  
+    text-align: center;
+    padding: 20px;
+}
+.div2{
+    width: 100%;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: 60% 39%;
+    grid-gap: 10px;
+    background-color: darkcyan;
+}
+#ad{
+    height: 200px;
+    width: 25%;
+    float: right;
+    background-color: lightseagreen ;
+    text-align: center;
+    padding: 40px;
+}
+#body{
+    height: 500px;
+    width: 74%;
+    float: left;
+    padding: 20px;
+}
+.div3>.col-3{    
+    height: 440px;
+    background-color: darksalmon;  
+    text-align: center;
+    padding: 120px;
+}
+.div3{
+    width: 100%;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: 25% 74%;
+    grid-gap: 10px;
+    background-color: darkcyan;
+}
+
+#sbar{
+    height: 500px;
+    width: 25%;
+    float: right;
+    background-color: darkcyan ;;
+    padding: 20px;
+}
+.col-4{
+    width: 100%;
+    display: grid;
+    grid-auto-flow: row;
+    grid-gap: 10px;
+    grid-template-columns: 15%;
+    background-color: darkcyan;
+}
+#sbar>.col-4{    
+    height: 440px;
+    background-color: darksalmon;  
+    text-align: center;
+    padding: 120px;
+}
+
+footer{      
+    height: 70px;
+    width: 95%;
+    float: left;
+    margin-left: 28px;
+    padding: 20px;
+}
+@media screen and (max-width:1024px){
+    .div1{
+    grid-template-columns: auto auto auto;
+    }
+    .col-4{
+    grid-template-columns: auto auto auto;
+    } 
+    
+}
+/* @media screen and (max-width:980px){
+    .grid-container{
+        grid-template-columns: auto auto auto auto;
+    }
+    .grid-container>.col1, .grid-container>.col2{    
+        height: 300px;
+        grid-column-end: span 2 ;  
+    }
+    .grid-container>.col3,.grid-container>.col4{    
+        height: 200px;
+        grid-column-end: span 4 ;
+    }        
+}
+@media screen and (max-width:768px){ 
+    .grid-container>.col-1{    
+        height: 100px;
+        grid-column-end: span 4 ; 
+    } 
+} */
