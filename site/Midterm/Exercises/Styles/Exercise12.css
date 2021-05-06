@@ -87,31 +87,33 @@ section{
     width: 100%;
     display: grid;
     grid-auto-flow: row;
-    grid-template-columns: 25% 74%;
-    grid-gap: 10px;
+    grid-template-columns: 25% 70%;
+    grid-gap: 40px;
     background-color: darkcyan;
 }
 
-#sbar{
+.sbar{
     height: 500px;
     width: 25%;
     float: right;
-    background-color: darkcyan ;;
-    padding: 20px;
+    background-color: darkcyan ;
+    text-align: center;
+    padding: 40px;
 }
-.col-4{
+.sbar>.col3{
     width: 100%;
     display: grid;
     grid-auto-flow: row;
+    grid-template-columns: 100%;
     grid-gap: 10px;
-    grid-template-columns: 15%;
-    background-color: darkcyan;
+    background-color: lightsalmon;
 }
-#sbar>.col-4{    
-    height: 440px;
-    background-color: darksalmon;  
+.col-4{
+    height: 420px;
+    width: 80%;
+    float: right;
     text-align: center;
-    padding: 120px;
+    padding: 40px;
 }
 
 footer{      
@@ -121,4 +123,44 @@ footer{
     margin-left: 28px;
     padding: 20px;
 }
-
+@media screen and (max-width:1366px){   
+    *{
+        background-color: mistyrose;
+    } 
+}
+@media screen and (max-width:1024px){    
+    *{
+        background-color: lightskyblue;}
+        .div3>.col-3{    
+            height: 440px;
+            background-color: darksalmon;  
+            text-align: center;
+            padding: 120px;
+        }
+        .div3{
+            width: 100%;
+            display: grid;
+            grid-auto-flow: row;
+            grid-template-columns: 25% 60%;
+            grid-gap: 100px;
+            background-color: darkcyan;
+        }
+}@media screen and (max-width:980px){    
+    *{
+        background-color: mediumseagreen;
+    }
+}@media screen and (max-width:768px){     
+    .div3>.col-3{    
+        height: 440px;
+        background-color: darksalmon;  
+        text-align: center;
+        padding: 120px;
+    }
+    .div3{
+        width: 100%;
+        display: grid;
+        grid-auto-flow: row;
+        grid-template-columns: 12% 42%;
+        grid-gap: 200px;
+        background-color: darkcyan;
+    }

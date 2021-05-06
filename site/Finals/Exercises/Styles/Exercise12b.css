@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    background-color: cornsilk;
+    width: 100%;
+}
+[class*="col-"]{
+    float: left;
+    padding: 5px;
+    border: 5px solid darkslategray;
+    background-color: lightpink;
+}
+#wrapper{
+    width: 90%;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.hero,.body, .ad, .sidebar{
+    height: 330px;
+}
+.hf,.hcta, .af , .al ,.sf{
+    height: 260px;
+}
+.col-12{
+    width: 100%;
+}
+.col-9{
+    width: 75%;
+}
+.col-7{
+    width: 58.333%;
+}
+.col-6{
+    width: 50%;
+}
+.col-3{
+    width: 25%;
+}
+.col-2{
+    width: 16.667%;
+}
+.header, .hero, .body, .sidebar, .footer{
+    background-color: lavender;
+}
+@media screen and (max-width:1024px){
+    .ad, .sidebar, .hero, .body{
+        height: 400px;
+    }
+    .hf, .hcta, .af, .al{
+        height: 320px;
+    }
+    .sf{
+        height: 320px;
+    }
+}
+@media screen and (max-width:768px){
+    #wrapper{
+        width: 100%;
+    }
+    .col-md-12{
+        width: 100%;
+    }
+    .col-md-8{
+        width: 66.666%;
+    }
+    .col-md-4{
+        width: 33.333%;
+    }
+    .brand, .GlobalNav , .tools{
+        height: 130px;
+    }
+    .ad, .sidebar, .hero, .body{
+        height: 400px;
+    }
+    .hf, .hcta, .af, .al{
+        height: 160px;
+    }
+    .sf{
+        height: 320px;
+    }
+}
+@media screen and (max-width:600px){
+    .col-sm-6{
+        width: 50%;
+    }
+    .col-sm-4{
+        width: 33.333%;
+    }
+}
